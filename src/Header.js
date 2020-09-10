@@ -36,9 +36,6 @@ const styleColorBtn = {
                 <div className="header__middle--middle8"></div>
                 <div className="header__middle--middle9"></div>
                 <div className="header__middle--middle10"></div>
-                <div className="header__middle--middle11"></div>
-                <div className="header__middle--middle12"></div>
-                <div className="header__middle--middle13"></div>
             </div>
 
           <div className="header__right">
