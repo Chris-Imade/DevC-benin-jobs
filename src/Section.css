@@ -1,9 +1,49 @@
 .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     position: relative;
-    top: 90%;
-    justify-content: center;
-    align-content: center;
+    top: 90px;
+    text-align: center;
+    align-content: center !important;
+    margin: 0 auto;
     flex-direction: column;
-    background-color: teal;
+    background-color: lightgrey;
+}
+.section1__top > p{
+    font-weight: 400;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.section1__middle > form {
+    border: 3px solid rgb(2, 41, 92);
+    position: relative;
+    left: 25%;
+    opacity: 80%;
+    display: flex;
+    width: 50vw;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+}   
+.section1__middle > form > input {
+    outline: 0;
+    caret-color: transparent;
+    border: none;
+    background-color: transparent;
+}
+.section1__middle > form > ::placeholder{
+    color: rgb(2, 41, 92);
+    opacity: 99%;
+}
+.section1__middle > form > .MuiSvgIcon-root{
+    color: rgb(2, 41, 92);
+    padding-right: 10px;
+}
+.section1__middle > form .stroke {
+    display: absolute;
+    width: 1px;
+    height: 25px;
+    background-color: rgb(19, 18, 18);
 }

@@ -12,6 +12,7 @@ function Section() {
             <div className="section1__middle">
                 <form>
                 <SearchIcon />
+                <div className="stroke"></div>
                     <input placeholder="Search For Jobs And Gigs" />
                 </form>
             </div>
