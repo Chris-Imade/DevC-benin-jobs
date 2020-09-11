@@ -3,11 +3,8 @@ import './Header.css';
 
 function Header() {
 const styleColorBtn = {
-  color:{
-    color: "white",
-    mouseEffect:{
-      cursor: "pointer"
-    }
+  mouseEffect:{
+    cursor: "pointer"
   }
 }
     return (
@@ -15,12 +12,12 @@ const styleColorBtn = {
           <div className="header__left">
 
             <div className="header__left--top">
-             <h6 style={styleColorBtn.color.mouseEffect}>Fbweb Project</h6>
+             <h6 style={styleColorBtn.mouseEffect}>Fbweb Project</h6>
             </div>
 
            <div className="header__left--middle">
              <h4>Get gigs and jobs<br /> Hire Talents.</h4>
-             <button style={styleColorBtn.color, styleColorBtn.color.mouseEffect}>Get Started</button>
+             <button style={styleColorBtn.mouseEffect} >Get Started</button>
            </div>
 
           </div>

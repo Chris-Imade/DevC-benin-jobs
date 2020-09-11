@@ -1,0 +1,9 @@
+.section {
+    display: flex;
+    position: relative;
+    top: 90%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: teal;
+}
